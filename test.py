@@ -17,7 +17,7 @@ option_year=st.sidebar.selectbox("選擇年度",year_list)
 #           type_list={'抒情歌曲':,
 #                      '流行歌曲':}
 if option_year=='2018':
-           type_list={'抒情歌曲':{'告白氣球'},
+           type_list={'抒情歌曲':{'告白氣球','是什麼讓我遇見這樣的你','寂寞寂寞就好','還是要幸福','等一個人'},
                       '流行歌曲':{}}
 option_musiclist=st.sidebar.selectbox("選擇類型",type_list)  
 option_music=st.selectbox("選擇音樂",type_list[option_musiclist])
