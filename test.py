@@ -14,7 +14,7 @@ option_year=st.sidebar.selectbox("選擇年度",year_list)
 #           type_list={'抒情歌曲':,
 #                      '流行歌曲':}
 if option_year=='2019':
-           type_list={'抒情歌曲'{'小幸運','光年之外','漂向北方','告白氣球','雨蝶'}:,
+           type_list={'抒情歌曲':{'小幸運','光年之外','漂向北方','告白氣球','雨蝶'}:,
                       '流行歌曲':}
 if option_year=='2018':
            type_list={'抒情歌曲':{'那些年','愛你','淋雨一直走','安靜','暖暖'},
